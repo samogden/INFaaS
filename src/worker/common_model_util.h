@@ -32,6 +32,7 @@
 #include <mutex>
 #include <set>
 #include <string>
+#include <random>
 
 #include <aws/core/Aws.h>
 #include <aws/s3/S3Client.h>

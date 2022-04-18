@@ -33,12 +33,12 @@ CPUGPU_UTIL_THRESH=80 # CPU/GPU utilization threshold (out of 100)
 INFERENTIA_UTIL_THRESH=70 # Inferentia utilization threshold (out of 100)
 
 ###### UPDATE THESE VALUES BEFORE RUNNING ######
-REGION='<REGION>'
-ZONE='<ZONE>'
-SECURITY_GROUP='<SECURITYGROUP>'
-IAM_ROLE='<IAMROLE>'
-MODELDB='<MYMODELDB>' # Model repository bucket (do not include s3://)
-CONFIGDB='<MYCONFIGDB>' # Configuration bucket (do not include s3://)
+REGION='us-east-1'
+ZONE='a'
+SECURITY_GROUP='infaas-apr11'
+IAM_ROLE='infaas-apr11'
+MODELDB='infaas-apr11-models' # Model repository bucket (do not include s3://)
+CONFIGDB='infaas-apr11-configs' # Configuration bucket (do not include s3://)
 WORKER_IMAGE='ami-<INFAASAMI>'
 NUM_INIT_CPU_WORKERS=1
 NUM_INIT_GPU_WORKERS=0
